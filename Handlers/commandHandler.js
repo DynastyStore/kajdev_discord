@@ -4,7 +4,6 @@ function loadCommands(client) {
   const table = new ascii().setHeading("Commands", "Status");
 
   let commandsArray = [];
-  let developerArray = [];
 
   const commandsFolder = fs.readdirSync("./Commands");
   for (const folder of commandsFolder) {
